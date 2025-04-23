@@ -23,7 +23,7 @@ function login(){
     else if(id === userId  && pass === userPass){
         alert("login Successfully")
     }else{
-        alert("User not found in Record")
+        alert("User not found in Records")
     }
     document.getElementById("idsave").value="";
     document.getElementById("passsave").value="";
