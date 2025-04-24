@@ -80,7 +80,14 @@
     font-size: 40px;
     color: black;
 }
-
+.clrback{
+    background-color: #c7c7cc42;
+    border-radius: 12px;
+}
+.hover :hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
 .icon{
     color: #AF80FF;
     font-size: 60px;
@@ -89,4 +96,29 @@
 .lMore{
     text-decoration: none;
     color: black;
+}
+.plaunch{
+    border-radius: 20px;
+    border: none;
+    background-color: #8C34FF;
+    color: white;
+    padding: 0px 10px 0px 10px; 
+}
+.on{
+    color: #8C34FF;
+}
+.off20{
+    border-radius: 20px;
+    background-color: #8C34FF;
+    border: #8C34FF;
+    color: white; 
+    font-size: 10px;
+    margin-left: 5px;
+}
+.off20:hover{
+    border-radius: 20px ;
+    border:2px solid  #8C34FF ;
+    color:#8C34FF;
+    background-color: white;
+    transition: 0.6s;
 }
