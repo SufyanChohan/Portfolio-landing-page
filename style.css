@@ -1,3 +1,6 @@
+.blkclr{
+    color: black;
+}
 .btnsign{
     
     margin-right: 15px;
@@ -115,10 +118,88 @@
     font-size: 10px;
     margin-left: 5px;
 }
-.off20:hover{
+.tick-list li::before {
+    content: "✓ ";
+    margin-right: 8px;
+    color:#8C34FF;
+    font-weight: bold;
+  }
+  .crdhover:hover{
+    transform: translateY(-5px);
+    transition: 0.7s;
+    background-color: rgba(128, 128, 128, 0.459);
+  }
+.upgbtn{
+    border-radius: 20px;
+    background-color: #8C34FF;
+    border: #8C34FF;
+    color: white; 
+    width: 95%;
+    height: 40px;
+    margin-right: 15px;
+}
+.upgbtn:hover{
     border-radius: 20px ;
     border:2px solid  #8C34FF ;
-    color:#8C34FF;
-    background-color: white;
+    background-color: rgba(128, 128, 128, 0.39);
     transition: 0.6s;
+
 }
+.custom-btn {
+    background-color: #8C34FF !important;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .custom-btn:not(.collapsed) {
+    background-color: #8C34FF !important;
+    color: white;
+  }
+
+  .custom-body {
+    background-color: #8C34FF;
+    color: white;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-button::after {
+    filter: brightness(0) invert(1);
+  }
+  .accordion-button:focus,
+.accordion-button:active,
+.accordion-button.show {
+  color: white !important;
+}   
+
+.accordion-button,
+.accordion-button:not(.collapsed),
+.accordion-button.collapsed {
+  background-color: #8C34FF !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+
+.accordion-button:focus,
+.accordion-button:active,
+.accordion-button:focus-visible {
+  color: white !important;
+  background-color: #8C34FF !important;
+  box-shadow: none !important;
+}
+
+
+.accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+.text-purple {
+    color: #a855f7;
+  }
+  .bg-purple {
+    background-color: #a855f7;
+  }
